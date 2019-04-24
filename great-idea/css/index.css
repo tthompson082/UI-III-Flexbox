@@ -211,3 +211,9 @@ footer {
 footer {
 	margin-top: 80px;
 }
+
+@media only screen and (max-width: 768px) {
+	.services-body {
+		flex-direction: column;
+	}
+}
