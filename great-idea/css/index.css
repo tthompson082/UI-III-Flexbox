@@ -79,7 +79,7 @@ nav a {
 	color: lightgray;
 }
 
-header {
+.index-header {
 	margin-top: 60px;
 	display: flex;
 	justify-content: space-evenly;
@@ -87,23 +87,23 @@ header {
 	margin-bottom: 60px;
 }
 
-h1 {
+.index-header h1 {
 	font-size: 90px;
 }
 
-header h1 {
+.index-header h1 {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
 }
 
-header img {
+.index-header img {
 	width: 500px;
 	height: 500px;
 }
 
-header h1 button {
+.index-header h1 button {
 	border: 1px solid black;
 	margin-top: 20px;
 	width: 200px;
@@ -135,4 +135,24 @@ footer {
 	margin-top: 40px;
 	margin-bottom: 80px;
 	text-align: center;
+}
+
+.services-header {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.services-header img {
+	width: 100%;
+}
+
+.services-header div {
+	margin-top: 30px;
+}
+
+.services-header h1 {
+	font-size: 35px;
 }
