@@ -66,7 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 body {
-	margin: 40px 80px 150px 80px;
+	height: 1536px;
+	width: 1024px;
+	margin: auto;
 }
 nav {
 	display: flex;
